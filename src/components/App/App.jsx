@@ -20,7 +20,6 @@ import article from 'data/article.json';
 // - `avatar` — аватар користувача
 // - `postedAt` — час створення (рекомендовано в форматі від дати до сьогодні)
 
-
 export const App = () => {
   return (
     <Section>
@@ -41,7 +40,7 @@ export const App = () => {
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 2
         </Heading>
-        <Statistics />
+        <Statistics title="Main Statistics" data={data} />
 
         <Heading marginTop="50px" marginBottom="50px" textAlign="center">
           Task 3
