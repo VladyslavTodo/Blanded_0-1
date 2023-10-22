@@ -1,5 +1,5 @@
 import { format, compareAsc } from 'date-fns';
-import normalizeDate from 'helpers/normalizeDate';
+import {normalizeDate} from 'helpers/normalizeDate';
 
 import {
   Card,

@@ -4,7 +4,8 @@ import { ForbesItem, Avatar, Name, Capital } from './ForbesListItem.styled';
 
 import { theme } from 'styles/theme';
 
-export const ForbesListItem = ({avatar,name,capital,isIncrease}) => {
+export const ForbesListItem = ({ avatar, name, capital, isIncrease }) => {
+  console.log(avatar);
   return <ForbesItem>
   <Avatar
     src={avatar}
